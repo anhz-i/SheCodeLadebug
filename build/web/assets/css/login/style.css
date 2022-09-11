@@ -1,0 +1,99 @@
+* {
+    font-family: "Graphik Web","Helvetica Neue",Helvetica,Arial,sans-serif;;
+    padding: 0;
+    margin: 0;    
+    font-size: 15px;
+}
+
+body {
+    padding: 20px 100px;    
+}
+
+:root {
+    --ocean-color: #004AAD;
+    --ocean-color-hover: #295ea3;
+    --yellow-color: #FFDE59;
+}
+
+.theme-background {
+    background-color: var(--ocean-color) !important;
+    box-shadow: 3px 3px 8px var(--yellow-color) !important;
+}
+
+.theme-background:hover {
+    background-color: var(--ocean-color-hover) !important;
+}
+
+.grey-border {
+    border-radius: 6px;
+    border: 1px solid  rgb(170, 170, 170) !important;
+}
+
+.grey-text {
+    color: rgb(136, 136, 136) !important;
+}
+
+main {
+    padding-top: 70px;
+}
+
+main .social-login {        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;    
+}
+
+main h1 {
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+main .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .login-main {
+    width: 100%;
+    padding-right: 70px;
+}
+
+main .img-login {
+    width: 100%;
+    padding-left: 30px;
+    
+}
+
+main .img-login img {
+    transform: translateY(-30%);
+}
+
+form label {
+    padding-top: 15px;
+}
+
+form input {
+    padding: 7px;
+    width: 100%
+}
+
+form .bton-login {
+    padding-top: 30px;
+}
+
+form .bton-login input {
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.forgotpass {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.create-account {
+    text-align: center;
+}

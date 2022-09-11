@@ -1,0 +1,122 @@
+:root {
+    --ocean-color: #004AAD;
+    --ocean-color-hover: #295ea3;
+    --yellow-color: #FFDE59;
+}
+
+@media only screen and (max-width: 992px) {
+    header {
+        padding: 0 30px;
+        /* box-shadow: 5px 5px 250px rgba(49, 49, 49, 0.219); */
+        overflow: hidden;
+    }
+
+    section.slider {
+        height: auto;
+    }
+    section.slider {
+        flex-direction: column-reverse;
+    }
+    section .slogan {
+        text-align: center;
+        padding: 0;
+    }
+    section .slogan-image img {
+        width: 60%;
+    }
+    section .slogan h1 {
+        font-size: 45px;
+    }
+
+    nav,
+    nav div,
+    nav div ul {
+        flex-direction: column;
+    } 
+    
+    nav div.header-elements {
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav div ul li {
+        text-align: left;
+    }
+
+    nav div ul .login-btn {
+        border: 2px solid var(--ocean-color);
+        border-radius: 6px;
+    }
+
+    nav div ul .signup-btn {
+        border-radius: 6px;
+        background-color: var(--yellow-color);        
+    }
+
+    nav .btn-res {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav .bars-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 50px;
+        border: 2px solid rgb(209, 209, 209);
+        border-radius: 6px;
+    }
+
+    nav .bars-btn:hover {
+        background-color: rgb(241, 241, 241);
+        text-decoration: none;
+        border-radius: 8px;
+    }
+
+    nav .bars-btn i {
+        font-size: 20px;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+    .footer-bottom {
+        flex-direction: column-reverse;
+    }
+    .footer-bottom div {
+        padding: 0 0 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section .slogan h1 {
+        font-size: 35px;
+    }
+    
+    
+}
+
+
+/* PC */
+@media (min-width:1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width:739px) {
+    
+}
+
