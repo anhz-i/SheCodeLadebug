@@ -60,12 +60,43 @@
 
                 </div>
                 <hr>
-                <div class="content">                    
+                <div class="content">       
+                    <div class="task">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <input type="checkbox" name="" id="" onclick="deleteTask(this)"> 
+                                    <p>task 2</p>                                                                      
+                                </div>
+                                <div>
+                                    <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+                                    <a href="#"><i class="fa-regular fa-pen-to-square"></i></a>
+                                    <a href="#"><i class="fa-regular fa-comment"></i></a>
+                                </div>
+                            </div>                                                            
+                        </div>
+                    <hr>
+                    <div class="task">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <div>
+                                    <input type="checkbox" name="" id="" onclick="deleteTask()"> 
+                                    <p>task 1</p>                                                                      
+                                </div>
+                                <div>
+                                    <a href="#"><i class="fa-regular fa-trash-can"></i></a>
+                                    <a href="#"><i class="fa-regular fa-pen-to-square"></i></a>
+                                    <a href="#"><i class="fa-regular fa-comment"></i></a>
+                                </div>
+                            </div>                                                            
+                        </div>
+                    <hr>
                     <c:forEach items="${requestScope.task}" var="t">
                         <div class="task">
                             <div style="display: flex; justify-content: space-between; align-items: center;">
                                 <div>
                                     <input type="checkbox" name="" id="" onclick="deleteTask(${t.id})"> 
+                                    <p>task 1</p>
+                                    <p>task 2</p>
+                                    <p>task 3</p>
                                     <p>${t.name}</p>
                                 </div>
                                 <div>
