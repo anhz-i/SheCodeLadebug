@@ -106,7 +106,7 @@ public class AddTask extends HttpServlet {
             }
             HttpSession session = request.getSession();
             User u = (User) session.getAttribute("user");
-            //t.Insert(id, name, startdate, duedate, description, Integer.parseInt(priority), secid, proid, u.getEmail());
+            t.Insert(id, name, startdate, duedate, description,  Integer.parseInt(priority), "", secid, proid, u.getId(), "");
             if (secid == null && proid == null) {
                 response.sendRedirect("project");
             } else {

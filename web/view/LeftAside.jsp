@@ -12,7 +12,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
         <title>The Grapes</title>
-        <link rel="icon" type="image/x-icon" href="<c:url value="/assets/image/favicon_io/favicon.ico"/>">                                
+        <link rel="icon" type="image/x-icon" href="<c:url value="/assets/image/thegrapes/favicon.png"/>">                                
         <link rel="stylesheet" href="<c:url value="/assets/css/bootstrap.css"/>">
         <link rel="stylesheet" href="<c:url value="/assets/css/bootstrap.min.css"/>">        
         <link rel="stylesheet" href="<c:url value="/assets/css/inbox/style.css"/>">
@@ -54,7 +54,7 @@
             <div style="display: flex; align-items: center">
                 <a href="" title="Add Task"><i class="fa-solid fa-plus"></i></a>                
                 <div class="pro">
-                    <img id="profile-img" onclick="showprofile()" style="cursor: pointer;" src="<c:url value="/assets/image/logo/1.png"/>" alt="" width="40px">                                        
+                    <img id="profile-img" onclick="showprofile()" style="cursor: pointer;" src="<c:url value="assets/image/thegrapes/1.png"/>" alt="" width="40px">                                        
                     <div id="account-manage" style="background-color: white; padding: 20px; border-radius: 6px; box-shadow: 3px 3px 3px #ccc; display: none; position: absolute; width: 150px; right: 0;">
                         <a href="updateaccount">Edit Account</a>
                         <form action="logout">

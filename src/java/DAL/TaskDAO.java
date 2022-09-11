@@ -289,8 +289,8 @@ public class TaskDAO {
     
     
     public static void main(String[] args) throws Exception {
-        TaskDAO t = new TaskDAO();
-        t.Insert(2, "kkk", "2022-07-08", "1900-01-01", "test", 1, "approve", "", "", 1, "");      
+         TaskDAO t = new TaskDAO();
+        t.Insert(3, "kkk", "2022-07-08", "2022-10-10", "test", 1, "approve", "", "", 1, "");      
         List<Task> task = t.getTaskbyUserID(1);
         for (Task item : task) {
             System.out.println(item.getDueDate());
